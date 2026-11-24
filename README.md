@@ -6,7 +6,7 @@
 路径防呆	            目录不存在会直接报错退出，路径含空格/中文建议加引号
 
 使用方法：
-
+在终端中运行：
 # 删除 D:\Photos 下所有 heic 文件（默认会先列出，输入 y 才执行）
 python del_files.py "D:\Photos" -e heic
 
